@@ -1,0 +1,16 @@
+.header, p, a, .seclinks {
+    text-align: center;
+}
+
+#title {
+    font-weight: 700;
+}
+
+#subtitle {
+    font-weight: 400;
+}
+
+#odin {
+    display: flex;
+    justify-content: center;
+}

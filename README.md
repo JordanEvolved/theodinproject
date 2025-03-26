@@ -1,2 +1,2 @@
 # theodinproject
-Work Directory for Foundations Section of The Odin Project
+A hub that contains all work for my stint on The Odin Project
