@@ -15,6 +15,23 @@
     justify-content: center;
 }
 
+.seclinks {
+    border: 10px solid rgb(221, 178, 98);
+    padding: 50px;
+    padding-top: 20px;
+    margin: 35px;
+}
+
+#html {
+    background-color: rgb(235, 235, 235);
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: -10px auto;
+    border: 5px solid black;
+    display: inline-block;
+}
+
 :root {
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
