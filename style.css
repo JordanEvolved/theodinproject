@@ -3,12 +3,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-flow: column;
+    margin: 0;
 }
 
 /* Header Section */
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .titles {
@@ -33,6 +35,7 @@ body {
     justify-content: flex-end;
     height: 100px;
     width: 100px;
+    flex: 1;
 }
 
 /* Description Section */
@@ -56,7 +59,7 @@ body {
     justify-content: center;
 }
 
-a {
+.seclinks a {
     text-decoration: none;
     padding: 10px;
     background-color: #c1c1c1;
@@ -67,6 +70,20 @@ a {
 .html-links {
     display: flex;
     gap: 5px;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    background-color: grey;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Font Dependencies */
