@@ -5,6 +5,7 @@ body {
     flex-flow: column;
 }
 
+/* Header Section */
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,6 +35,16 @@ body {
     width: 100px;
 }
 
+/* Description Section */
+.description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 500;
+}
+
+/* HTML Link Section */
 .seclinks {
     display: flex;
     flex-flow: column wrap;
@@ -47,8 +58,18 @@ body {
 
 a {
     text-decoration: none;
+    padding: 10px;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+    color: black;
 }
 
+.html-links {
+    display: flex;
+    gap: 5px;
+}
+
+/* Font Dependencies */
 :root {
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
