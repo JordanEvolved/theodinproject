@@ -1,35 +1,52 @@
-.header, p, a, .seclinks {
-    text-align: center;
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
 }
 
-#title {
-    font-weight: 700;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
-#subtitle {
-    font-weight: 400;
+.titles {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 275px;
 }
 
-#odin {
+.title {
+    margin: 5px;
+    margin-bottom: -5px;
+}
+
+.subtitle {
+    margin: 5px;
+    font-weight: 300;
+    color: #b9b3b3;
+}
+
+.odin-image {
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100px;
+}
+
+.seclinks {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.html {
     display: flex;
     justify-content: center;
 }
 
-.seclinks {
-    border: 10px solid rgb(221, 178, 98);
-    padding: 50px;
-    padding-top: 20px;
-    margin: 35px;
-}
-
-#html {
-    background-color: rgb(235, 235, 235);
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-    margin: -10px auto;
-    border: 5px solid black;
-    display: inline-block;
+a {
+    text-decoration: none;
 }
 
 :root {
