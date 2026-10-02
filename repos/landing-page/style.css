@@ -102,3 +102,27 @@ body {
     font-size: large;
     font-weight: bold;
 }
+
+/* Quote Section */
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    padding: 50px;
+    padding-left: 225px;
+    padding-right: 225px;
+    background-color: rgb(238, 238, 238);
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: small;
+    font-weight: bold;
+}
