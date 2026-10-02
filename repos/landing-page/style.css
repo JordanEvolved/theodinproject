@@ -63,7 +63,10 @@ body {
 
 .header button {
     color: white;
-    background-color: blue;
+    background-color:  rgb(45, 76, 179);
+    border: 2px solid rgb(45, 76, 179);
+    border-radius: 12px;
+    padding: 5px 20px;
 }
 
 /* Information Section */
@@ -128,3 +131,54 @@ body {
 }
 
 /* Footer Section */
+.footer {
+    display: flex;
+    flex-flow: column;
+}
+
+.call-to-action {
+    display: flex;
+    flex-flow: row;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(45, 76, 179);
+    margin: 70px;
+    border-radius: 10px;
+    color: white;
+    max-width: 1000px;
+    align-self: center;
+    width: 100%;
+}
+
+.call-text {
+    padding: 30px;
+}
+
+.call-title {
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.call-desc {
+    display: flex;
+    flex-flow: column;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.call-to-action button {
+    background-color: rgb(45, 76, 179);
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    align-self: center;
+    padding: 5px 20px;
+}
+
+.copyright {
+    background-color: rgb(33, 33, 54);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
