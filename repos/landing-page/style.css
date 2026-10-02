@@ -65,3 +65,40 @@ body {
     color: white;
     background-color: blue;
 }
+
+/* Information Section */
+
+.information {
+    display: flex;
+    flex-flow: column;
+    margin: 30px;
+}
+
+.image-row {
+    display: flex;
+    flex-flow: row;
+    gap: 95px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.image {
+    display: flex;
+    max-width: 125px;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.image-box {
+    width: 125px;
+    height: 125px;
+    border: 2px solid rgb(149, 230, 233);
+    border-radius: 12px;
+}
+
+.information-title {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
