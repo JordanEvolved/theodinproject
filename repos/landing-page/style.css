@@ -1,0 +1,67 @@
+@import url('https://googleapis.com');
+
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+
+.header {
+    background-color: #1c2841;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    padding: 100px;
+    padding-top: 10px;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: larger;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.header-info {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.header-info-text {
+    max-width: 500px;
+}
+
+.header-info-image {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    padding: 80px;
+    flex: none;
+}
+
+.header-info-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header button {
+    color: white;
+    background-color: blue;
+}
